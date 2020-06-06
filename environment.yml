@@ -6,6 +6,7 @@ dependencies:
 - conda
 - scikit-learn
 - scipy
+- pickle
 - pandas
 - numpy
 - matplotlib
