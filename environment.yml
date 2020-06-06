@@ -1,0 +1,14 @@
+name: insight_env
+channels:
+- conda-forge
+dependencies:
+- python=3.8
+- conda
+- scikit-learn
+- scipy
+- pandas
+- numpy
+- matplotlib
+- pip
+- pip:
+  - streamlit
