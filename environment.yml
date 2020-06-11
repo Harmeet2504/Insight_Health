@@ -9,7 +9,7 @@ dependencies:
 - pickle
 - pandas
 - numpy
-- matplotlib
+- matplotlib.pyplot
 - webbrowser
 - Image
 - pip
