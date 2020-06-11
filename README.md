@@ -1,11 +1,6 @@
 
-# Watch your sugar Mommy : A streamlit web application for early prediction of gestational diabetes in expectant women.
-
-## Summary:
-<dt>A
-</dt>
-
-The streamlit app is deployed on Heroku () 
+# SafePregnancy : A streamlit web application for early prediction of gestational diabetes in expectant women.
+The streamlit app is deployed on Heroku (https://watch-sugar-mommy.herokuapp.com/) 
 ## Data Extraction, Transformation and Loading
 **Data Source:** Physionet
 **EDA**:
