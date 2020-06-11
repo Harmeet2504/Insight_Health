@@ -12,10 +12,10 @@ st.image(image,use_column_width=True)
 
 total=100
 
-
-if st.sidebar.button('Open browser', key='url_sub'):
-                url = 'https://www.reddit.com/r/GestationalDiabetes/'
-                webbrowser.open_new_tab(url)
+st.sidebar.markdown('https://www.reddit.com/r/GestationalDiabetes/')
+# if st.sidebar.button('Open browser', key='url_sub'):
+#                 url = 'https://www.reddit.com/r/GestationalDiabetes/'
+#                 webbrowser.open_new_tab(url)
 
 # webbrowser.open(') 
 
