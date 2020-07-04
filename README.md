@@ -6,8 +6,6 @@ Application link: [SweetExpectations](https://sweet-expectations.herokuapp.com/)
 ## Summary:
 The aim of this project is to build a web application that can be used to predict/monitor the risk for gestational diabetes in expectant women much before their Oral Glucose Tolerance Test is due(around week 26-28).Early prediction promote early lifestyle interventions which essentially translates to an estimated saving of $5800 per pregnancy per an estimate by The American Diabetes Association in 2017.
 
-## Data Extraction, Transformation and Loading
-
 **Data Source:** 
 Electronic Health Records of expecting women was pulled in from [Physionet](https://www.physionet.org/content/maternal-visceral-adipose/1.0.0/).The database is from a cohort study of pregnant women up to 20 weeks of pregnancy and followed until delivery.Total records is 133. Inclusion criteria were singleton pregnancy and gestational age ≤20 weeks.
 
