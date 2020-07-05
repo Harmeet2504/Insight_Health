@@ -8,7 +8,7 @@ The aim of this project is to build a web application that can be used to predic
 
 **Data Source:** 
 Electronic Health Records of expecting women was pulled in from [Physionet](https://www.physionet.org/content/maternal-visceral-adipose/1.0.0/).The database is from a cohort study of pregnant women up to 20 weeks of pregnancy and followed until delivery.Total records is 133. Inclusion criteria were singleton pregnancy and gestational age ≤20 weeks.
-
+        ![Pipeline](https://github.com/Harmeet2504/Insight_Health/blob/master/reports/figures/pipeline.jpg)
 **Exploratory Data Analysis:**
 Data was cleaned using pandas, and explored using matplotlib, seaborn visualization libraries. The data is non-linear and has 13 features and 1 target (gestational diabetes mellitus (gdm)), with imbalanced class (14% positive and 86% negative). Positive classes tend to be obese with high first fasting glucose. 
 
