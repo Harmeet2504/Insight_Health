@@ -7,7 +7,7 @@ Application link: [SweetExpectations](https://sweet-expectations.herokuapp.com/)
 [Summary](#Summary)
 [Data](#Data)
 [EDA](#EDA)
-[Feature Selection](#Feature Selection)
+[Features](#Features)
 [Training](#Training)
 [Validation](#Validation)
 [App](#App)
@@ -24,7 +24,7 @@ Electronic Health Records of expecting women was pulled in from [Physionet](http
 ## EDA:
 Data was cleaned using pandas, and explored using matplotlib, seaborn visualization libraries. The data is non-linear and has 13 features and 1 target (gestational diabetes mellitus (gdm)), with imbalanced class (14% positive and 86% negative). Positive classes tend to be obese with high first fasting glucose. 
 
-## Feature Selection:
+## Features:
 Features that did not meet inclusion criteria (type of delivery, gestational age at delivery, child birth weight at delivery) and had no signal (previous diabetes) were eliminated from the study. Recursive feature elimination with cross-validation suggested 8 features for optimum accuracy. 'Ethnicity' had the least feature importance. Furthermore, redundancy was eliminated by exclusion of highly correlated features (mean diastolic bp, mean systolic bp, armenalli fat) without impacting the overall model performance. Final feature vector was composed of 5 features (Fasting blood glucose (mg/dl), BMI Pregestational, Age, Pregnancies (number), Gestational age).
 
 ## Training:
