@@ -1,6 +1,5 @@
 
 # [SweetExpectations](https://sweet-expectations.herokuapp.com/) 
-<a href="https://github.com/Harmeet2504/Insight_Health/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Harmeet2504/Insight_Health?style=for-the-badge"></a>
 [![GitHub forks](https://img.shields.io/github/forks/Harmeet2504/Insight_Health?style=for-the-badge)](https://github.com/Harmeet2504/Insight_Health/network)
 ### Predicting gestational dibetes for timely intervention 
 
