@@ -4,8 +4,8 @@
 Application link: [SweetExpectations](https://sweet-expectations.herokuapp.com/) 
 
 ## Content
-[Summary](#Summary)
-[Data](#Data)
+*[Summary](#Summary)
+*[Data](#Data)
 [EDA](#EDA)
 [Features](#Features)
 [Training](#Training)
