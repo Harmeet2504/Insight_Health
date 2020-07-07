@@ -2,6 +2,7 @@
 # SweetExpectations
 ### Predicting gestational dibetes for timely intervention: 
 Application link: [SweetExpectations](https://sweet-expectations.herokuapp.com/) 
+---
 
 ## Content
 Summary
@@ -12,6 +13,7 @@ Model training
 Validation
 App
 Challenges
+Installations
 How to run
 
 ## Summary:
@@ -29,7 +31,7 @@ Features that did not meet inclusion criteria (type of delivery, gestational age
 ## Model Training:
 Data was stratified before splitting to training(80%) and test(20%) set using sklearn. Resampling was implemented on the training set to match the minority with majority class. Random forest classifier was formulated and tuned for its hyperparameters using 3-fold cross-validation by leveraging randomized search algorithm.
 
-## validation:
+## Validation:
 Model was optimized to eliminate both false positive and false negative outcomes because in either case any interventions would affect the life of both mother and the child. Hence, evaluation criteria was a trade-off of sensitivity and specificity. Model had an F1-score of 95%, Recall of 100%, Precision of 93% and AUC-score of 99.8%. All the parameters were better than the baseline model by 50%.
                 ![Validation](https://github.com/Harmeet2504/Insight_Health/blob/master/reports/figures/evaluation_comparison.png)
 
@@ -43,10 +45,8 @@ The app was built using Flask api, designed with HTML, CSS and Bootstrap and dep
 ## Installations
 pip install -r requirements.txt
 
-## To run locally
+## How to run 
 1. Clone the repository 
-2. setup the environment variables
-3. python app.py
-
-
+2. Set up the environment variables
+3. In the terminal run 'python app.py' from root directory
 
