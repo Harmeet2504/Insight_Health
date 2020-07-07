@@ -6,7 +6,7 @@ Application link: [SweetExpectations](https://sweet-expectations.herokuapp.com/)
 ## Content
 [Summary](#Summary)
 [Data Source](#Data Source)
-[Exploratory Data Analysis](#Exploratory Data Analysis)
+[EDA](#Exploratory Data Analysis)
 [Feature Selection](#Feature Selection)
 [Model training](#Model training)
 [Validation](#Validation)
