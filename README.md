@@ -5,20 +5,20 @@ Application link: [SweetExpectations](https://sweet-expectations.herokuapp.com/)
 
 ## Content
 [Summary](#Summary)
-[Data Source](#Data Source)
+[Data](#Data)
 [EDA](#EDA)
 [Feature Selection](#Feature Selection)
-[Model training](#Model training)
+[Training](#Training)
 [Validation](#Validation)
 [App](#App)
 [Challenges](#Challenges)
 [Installations](#Installations)
-[How to run](#How to run)
+[How-to-run](#How-to-run)
 
 ## Summary:
 The aim of this project is to build a web application that can be used to predict/monitor the risk for gestational diabetes in expectant women much before their Oral Glucose Tolerance Test is due(around week 26-28).Early prediction promote early lifestyle interventions which essentially translates to an estimated saving of $5800 per pregnancy per an estimate by The American Diabetes Association in 2017.
 
-## Data Source:
+## Data:
 Electronic Health Records of expecting women was pulled in from [Physionet](https://www.physionet.org/content/maternal-visceral-adipose/1.0.0/).The database is from a cohort study of pregnant women up to 20 weeks of pregnancy and followed until delivery.Total records is 133. Inclusion criteria were singleton pregnancy and gestational age ≤20 weeks.
         ![Pipeline](https://github.com/Harmeet2504/Insight_Health/blob/master/reports/figures/pipeline.jpg)
 ## EDA:
@@ -27,7 +27,7 @@ Data was cleaned using pandas, and explored using matplotlib, seaborn visualizat
 ## Feature Selection:
 Features that did not meet inclusion criteria (type of delivery, gestational age at delivery, child birth weight at delivery) and had no signal (previous diabetes) were eliminated from the study. Recursive feature elimination with cross-validation suggested 8 features for optimum accuracy. 'Ethnicity' had the least feature importance. Furthermore, redundancy was eliminated by exclusion of highly correlated features (mean diastolic bp, mean systolic bp, armenalli fat) without impacting the overall model performance. Final feature vector was composed of 5 features (Fasting blood glucose (mg/dl), BMI Pregestational, Age, Pregnancies (number), Gestational age).
 
-## Model Training:
+## Training:
 Data was stratified before splitting to training(80%) and test(20%) set using sklearn. Resampling was implemented on the training set to match the minority with majority class. Random forest classifier was formulated and tuned for its hyperparameters using 3-fold cross-validation by leveraging randomized search algorithm.
 
 ## Validation:
@@ -44,7 +44,7 @@ The app was built using Flask api, designed with HTML, CSS and Bootstrap and dep
 ## Installations
 pip install -r requirements.txt
 
-## How to run 
+## How-to-run 
 1. Clone the repository 
 2. Set up the environment variables
 3. In the terminal run 'python app.py' from root directory
