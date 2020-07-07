@@ -1,5 +1,5 @@
 
-# SweetExpectations
+# [SweetExpectations](https://sweet-expectations.herokuapp.com/) 
 ### Predicting gestational dibetes for timely intervention: 
 Application link: [SweetExpectations](https://sweet-expectations.herokuapp.com/) 
 
@@ -7,13 +7,13 @@ Application link: [SweetExpectations](https://sweet-expectations.herokuapp.com/)
 1. [Summary](#Summary)
 1. [Data](#Data)
 1. [EDA](#EDA)
-[Features](#Features)
-[Training](#Training)
-[Validation](#Validation)
-[App](#App)
-[Challenges](#Challenges)
-[Installations](#Installations)
-[How-to-run](#How-to-run)
+1. [Features](#Features)
+1. [Training](#Training)
+1. [Validation](#Validation)
+1. [App](#App)
+1. [Challenges](#Challenges)
+1. [Installations](#Installations)
+1. [How-to-run](#How-to-run)
 
 ## Summary:
 The aim of this project is to build a web application that can be used to predict/monitor the risk for gestational diabetes in expectant women much before their Oral Glucose Tolerance Test is due(around week 26-28).Early prediction promote early lifestyle interventions which essentially translates to an estimated saving of $5800 per pregnancy per an estimate by The American Diabetes Association in 2017.
