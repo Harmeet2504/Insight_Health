@@ -14,7 +14,7 @@ Best_model = pickle.load(open('model_tree.pkl', 'rb'))
 @app.route("/")
 def index():
     """Return the homepage."""
-    return render_template("test-index.html")
+    return render_template("index.html")
 
 @app.route("/directions")
 def directions():
