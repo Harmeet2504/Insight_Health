@@ -14,6 +14,7 @@
 1. [Challenges](#Challenges)
 1. [Installations](#Installations)
 1. [How-to-run](#How-to-run)
+1. [Presentation](#Presentation)
 
 ## Summary
 The aim of this project is to build a web application that can be used to predict/monitor the risk for gestational diabetes in expectant women much before their Oral Glucose Tolerance Test is due(around week 26-28).Early prediction promote early lifestyle interventions which essentially translates to an estimated saving of $5800 per pregnancy per an estimate by The American Diabetes Association in 2017.
@@ -49,3 +50,4 @@ pip install -r requirements.txt
 2. Set up the environment variables
 3. In the terminal run 'python app.py' from root directory
 
+## [Presentation](https://docs.google.com/presentation/d/1tOQLsVaOKyczOl9bWyY8tBFNd4tDgh6xUF0ByhJN0Rg/edit?usp=sharing)
