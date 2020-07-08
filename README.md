@@ -5,7 +5,7 @@
 
 ## Content
 1. [Summary](#Summary)
-1. [Programs/packages](#Programs/packages)
+1. [Packages](#Packages)
 1. [Data](#Data)
 1. [EDA](#EDA)
 1. [Features](#Features)
@@ -20,7 +20,7 @@
 ## Summary
 The aim of this project is to build a web application that can be used to predict/monitor the risk for gestational diabetes in expectant women much before their Oral Glucose Tolerance Test is due(around week 26-28).Early prediction promote early lifestyle interventions which essentially translates to an estimated saving of $5800 per pregnancy per an estimate by The American Diabetes Association in 2017.
 
-## Programs/packages
+## Packages
 Python, pandas, matplotlib, seaborn, numPy, sklearn, HTML, CSS, Flask, Bootstrap, Heroku
 
 ## Data
