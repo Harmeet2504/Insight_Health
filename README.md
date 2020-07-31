@@ -36,7 +36,7 @@ Features that did not meet inclusion criteria (type of delivery, gestational age
 Data was stratified before splitting to training(80%) and test(20%) set using sklearn. Resampling was implemented on the training set to match the minority with majority class. Random forest classifier was formulated and tuned for its hyperparameters using 3-fold cross-validation by leveraging randomized search algorithm.
 
 ## Validation
-Model was optimized to eliminate both false positive and false negative outcomes because in either case any interventions would affect the life of both mother and the child. Hence, evaluation criteria was a trade-off of sensitivity and specificity. Model had an F1-score of 95%, Recall of 100%, Precision of 93% and AUC-score of 99.8%. All the parameters were better than the baseline model by 50%.
+Model was optimized to eliminate both false positive and false negative outcomes because in either case any interventions would affect the life of both mother and the child. Hence, evaluation criteria was a trade-off of sensitivity and specificity. Model had an F1-score of 95%, Recall of 100%, Precision of 93% and AUC-score of 99.8%. All the parameters were better than the baseline model by 25% with an offset of 3% for Specificity.
                                  ![Validation](https://github.com/Harmeet2504/Insight_Health/blob/master/reports/figures/evaluation_comparison.png)
 
 ## App
