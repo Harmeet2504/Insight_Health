@@ -42,7 +42,7 @@ Data was stratified before splitting to training(80%) and test(20%) set using sk
 Model was optimized to eliminate false negative and precisely identify true outcomes because in either case any interventions would affect the life of both mother and the child. Hence, evaluation criteria was a trade-off of sensitivity/recall and precision. Model had an F1-score of 95% (used because unequal class distribution), Recall/Sensitivity of 100%, Precision of 93%. All the parameters were better than the baseline model by 25% with an offset of 3% for Specificity.
                                 
                     
-                    ![Validation](https://github.com/Harmeet2504/Insight_Health/blob/master/reports/figures/evaluation_comparison.png)
+  ![Validation](https://github.com/Harmeet2504/Insight_Health/blob/master/reports/figures/evaluation_comparison.png)
                     
                     
 
