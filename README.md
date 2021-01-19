@@ -5,6 +5,7 @@
 [![GitHub license](https://img.shields.io/github/license/Harmeet2504/Insight_Health?color=red&style=for-the-badge)](https://github.com/Harmeet2504/Insight_Health/network)
 
 ### Predicting gestational dibetes for timely intervention 
+An end-to-end data modeling project as a postdoctoral fellow at Insight
 
 ## Content
 1. [Summary](#Summary)
