@@ -7,6 +7,8 @@
 ### Predicting gestational dibetes for timely intervention 
 An end-to-end data modeling project as a postdoctoral fellow at Insight
 
+# [Dashboard](https://public.tableau.com/app/profile/harmeet2811/viz/Dashboard-gdm/New_dashboard)
+
 ## Content
 1. [Summary](#Summary)
 1. [Packages](#Packages)
